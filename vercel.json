@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "VedicAstroAPI.py"
+      "dest": "VedicAstroAPI.py" 
     }
   ],
   "functions": {
