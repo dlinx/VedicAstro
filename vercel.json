@@ -3,8 +3,7 @@
   "builds": [
     {
       "src": "VedicAstroAPI.py",
-      "use": "@vercel/python",
-      "excludeFiles": "{StudyNotebooks,test_suite}/**"
+      "use": "@vercel/python"
     }
   ],
   "routes": [
@@ -12,5 +11,6 @@
       "src": "/(.*)",
       "dest": "VedicAstroAPI.py"
     }
-  ]
+  ],
+  "excludeFiles": "{StudyNotebooks,test_suite}/**"
 }
