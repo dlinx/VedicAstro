@@ -4,15 +4,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
     
 setup(
-    name="vedicastro",
+    name="Vedic Pro",
     version="0.2.1",
-    author="Dilip Rajkumar",
-    author_email="diliprajkumar@gmail.com",
+    author="Laxmikant Dange",
+    author_email="dange.laxmikant2@gmail.com",
     description="A python package for Vedic Astrology, with a particular focus on the Krishnamurthi Paddhati system",
     license="MIT",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/diliprk/VedicAstro",
+    url="https://github.com/dlinx/VedicAstro",
     package_data={'vedicastro': ['data/*.csv']},
     packages=find_packages(),
     classifiers=[
