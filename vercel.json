@@ -9,8 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "VedicAstroAPI.py",
-      "excludeFiles": "{StudyNotebooks,test_suite}/**"
+      "dest": "VedicAstroAPI.py"
     }
   ],
   "functions": {
