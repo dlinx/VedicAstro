@@ -12,5 +12,10 @@
       "dest": "VedicAstroAPI.py",
       "excludeFiles": "{StudyNotebooks,test_suite}/**"
     }
-  ]
+  ],
+  "functions": {
+    "api/**": {
+      "excludeFiles": "{StudyNotebooks,test_suite}/**"
+    }
+  }
 }
