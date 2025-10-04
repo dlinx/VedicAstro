@@ -1,6 +1,6 @@
 tqdm
 pytz
-polars
+polars==1.29.0
 fastapi
 uvicorn
 prettytable
